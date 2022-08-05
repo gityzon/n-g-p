@@ -1,3 +1,4 @@
+#########请添加环境变量"passwd"，否则brook不会启动.
 #删除bk并重新启动以更新brook.
 #删除panindex并重新启动以更新PanIndex.
 
