@@ -11,6 +11,16 @@ Change Language to "Bash",Choose "Import from GitHub".
   <img alt="Run on Repl.it" src="https://replit.com/badge/github/github/gityzon" style="height: 40px; width: 190px;" />
 </a>
 
+### For edu:
+
+1. Creat a Bash-language project.
+
+2. Copy these code to Replit's Shell and ←
+
+   git clone https://github.com/gityzon/bk-ng.git && mv -b bk-ng/* ./ && mv -b bk-ng/.[^.]* ./ && rm -rf *~ && rm -rf bk-ng
+
+3. After "Loading Nix environment..." is done, ▶RUN!!!
+
 #
 If you use mobile phone,please set the UA of Browser as "Desktop" or maybe replit can not work.
 
@@ -31,11 +41,11 @@ https://github.com/txthinking/brook/releases
 
 # Usage
 
-wss://"your repl's domain":443 --password "passwd"
+wss://"your repl's domain":443/lockey --password "passwd"
 
 For linux(bash) or windows cmd:
 
-#### brook wssclient -s wss://"your repl's domain":443 -p "passwd" --socks5 127.0.0.1:1080
+#### brook wssclient -s wss://"your repl's domain":443/lockey -p "passwd" --socks5 127.0.0.1:1080
 
 It will open a socks5 proxy on PORT 1080.
 
