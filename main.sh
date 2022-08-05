@@ -2,7 +2,7 @@
 #删除panindex并重新启动以更新PanIndex.
 
 #!/bin/bash
-cd .nginx/sbin & chmod +x nginx
+chmod +x ~/nginx/sbin/nginx
 export PATH="~/nginx/sbin:brook:panindex$PATH"
 
 if [ ! -d "~/nginx" ];then
