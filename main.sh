@@ -2,12 +2,13 @@
 #删除panindex并重新启动以更新PanIndex.
 
 #!/bin/bash
-chmod 777 ~/nginx/sbin/nginx
+
 export PATH="~/nginx/sbin:brook:panindex$PATH"
 
 if [ ! -d "~/nginx" ];then
 	\cp -ax .nginx ~/nginx
 fi
+chmod 777 ~/nginx/sbin/nginx
 
 if [ ! -f "bk" ];then
   curl -L https://github.com/txthinking/brook/releases/latest/download/brook_linux_amd64 -o bk
