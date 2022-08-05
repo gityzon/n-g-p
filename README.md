@@ -4,7 +4,7 @@ Based on [bk-sc](https://github.com/gityzon/bk-sc)
 Add Nginx as frontend with panindex as disquise.
 
 Deploy brook on replit.
-Choose "Import from GitHub".
+Change Language to "Bash",Choose "Import from GitHub".
 #
 
 <a href="https://replit.com/github/gityzon/bk-ng">
