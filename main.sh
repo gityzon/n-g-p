@@ -18,7 +18,7 @@ if [ ! -f "index.php" ];then
 unzip onenav-extend.zip
 rm -f onenav-extend.zip
 mv onenav-master/*  . 
-rm -f onenav-master & rm -f LICENSE
+rm -f LICENSE
 fi
 
 php -S 0.0.0.0:8000 -t . &
