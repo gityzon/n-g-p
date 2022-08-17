@@ -1,10 +1,10 @@
-# n-o-p
+# n-g-p
 
-Nginx+OneNav-Extend+php on replit.
+Nginx+Grav+php on replit.
 
 #### APP:
 
-[OneNav-Extend](https://gitee.com/tznb/OneNav)
+[Grav](https://getgrav.org/)
 
 ### Packages:
 
@@ -20,9 +20,8 @@ Nginx+OneNav-Extend+php on replit.
 
 ### Feature:
 
-      1. Upgrade support
-
-      2. Nginx(v1.20.2) as frontend with full configured.
+      1. Nginx(v1.20.2) as frontend with full configured.
+      
 
 ### Deploy:
 
@@ -40,6 +39,6 @@ If you use mobile phone,please set the UA of Browser as "Desktop" or maybe repli
 
 2. Copy these code to Replit's Shell and ←
 
-   `git clone https://github.com/gityzon/n-o-p.git && mv -b n-o-p/* ./ && mv -b n-o-p/.[^.]* ./ && rm -rf *~ && rm -rf n-o-p`
+   `git clone https://github.com/gityzon/n-g-p.git && mv -b n-g-p/* ./ && mv -b n-g-p/.[^.]* ./ && rm -rf *~ && rm -rf n-g-p`
 
 3. After "Loading Nix environment..." is done, ▶RUN!!!
