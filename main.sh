@@ -15,8 +15,8 @@ unzip grav-admin.zip
 rm -f grav-admin.zip
 #mv grav-admin/*  . 
 rm -f LICENSE.txt & rm -f SECURITY.md & rm -f  CONTRIBUTING.md
-sh remend-index.sh
 fi
+sh remend-index.sh
 
 php -S 0.0.0.0:8000 -t . &
 nginx -g 'daemon off;'
