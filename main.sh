@@ -1,8 +1,4 @@
 #！警告：replit免费版中所有代码都是公开可见的，建议使用edu版部署
-#如何更新OneNav-Extend：
-#1.停止运行，备份数据（下载data目录中的几个db3格式的文件，如果自己有改php的文件也记得自行备份）
-#2.删除所有文件，只保留nginx和main.sh
-#3.再次RUN，不要安装，将db3文件上传到data目录中，然后直接访问你的站点，everything going well~
 
 #!/bin/bash
 
@@ -14,11 +10,12 @@ fi
 chmod 777 ~/nginx/sbin/nginx
 
 if [ ! -f "index.php" ];then
-  curl -L https://github.com/tznb1/onenav/archive/refs/heads/master.zip -o onenav-extend.zip
-unzip onenav-extend.zip
-rm -f onenav-extend.zip
-mv onenav-master/*  . 
-rm -f LICENSE
+  curl -L https://github.com/getgrav/grav/releases/download/1.7.35/grav-admin-v1.7.35.zip -o grav-admin.zip
+unzip grav-admin.zip
+rm -f grav-admin.zip
+#mv grav-admin/*  . 
+rm -f LICENSE.txt & rm -f SECURITY.md & rm -f  CONTRIBUTING.md
+sh remend-index.sh
 fi
 
 php -S 0.0.0.0:8000 -t . &
