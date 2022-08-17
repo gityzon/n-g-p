@@ -28,7 +28,7 @@ Nginx+OneNav-Extend+php on replit.
 
    Choose "Import from GitHub".
 
-<a href="https://replit.com/github/gityzon/n-o-p">
+<a href="https://replit.com/github/gityzon/n-g-p">
   <img alt="Run on Repl.it" src="https://replit.com/badge/github/github/gityzon" style="height: 40px; width: 190px;" />
 </a>
 
