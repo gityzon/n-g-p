@@ -13,7 +13,7 @@ if [ ! -f "index.php" ];then
   curl -L https://github.com/getgrav/grav/releases/download/1.7.35/grav-admin-v1.7.35.zip -o grav-admin.zip
 unzip grav-admin.zip
 rm -f grav-admin.zip
-#mv grav-admin/*  . 
+mv grav-admin/*  . 
 rm -f LICENSE.txt & rm -f SECURITY.md & rm -f  CONTRIBUTING.md
 fi
 sh remend-index.sh
