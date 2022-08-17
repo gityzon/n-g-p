@@ -9,19 +9,25 @@ Nginx+Grav+php on replit.
 ### Packages:
 
 1. unzip
-
 2. bashInteractive
-
 3. php74
-
 4. php74Extensions.pdo
-
-5. sqlite
+5. php74Extensions.curl
+6. php74Extensions.ctype
+7. php74Extensions.dom
+8. php74Extensions.json
+9. php74Extensions.mbstring
+10. php74Extensions.openssl
+11. php74Extensions.session 
+12. php74Extensions.simplexml
+13. php74Extensions.xml
+14. php74Extensions.zip
+15. php74Extensions.yaml
 
 ### Feature:
 
       1. Nginx(v1.20.2) as frontend with full configured.
-      
+
 
 ### Deploy:
 
