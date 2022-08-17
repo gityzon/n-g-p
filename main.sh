@@ -16,7 +16,6 @@ rm -f grav-admin.zip
 mv grav-admin/*  . 
 rm -f LICENSE.txt & rm -f SECURITY.md & rm -f  CONTRIBUTING.md
 fi
-#sh remend-index.sh
 
-php -S 0.0.0.0:8000 -t . &
+php -S 0.0.0.0:8000 system/router.php &
 nginx -g 'daemon off;'
